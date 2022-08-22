@@ -21,6 +21,11 @@ db.connect((err)=>{
 
 const app = express();
 
+// Say hi
+app.get('/', (req, res) => {
+    res.send("hi! this seems to work...");
+})
+
 // Create db
 app.get('/createdb', (req, res) => {
     let sql = 'CREATE DATABASE nodemysql';
