@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "nodemon": "nodemon app.js"
+    "nodemon": "nodemon app.js",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
+    "mocha": "^10.0.0",
     "nodemon": "^2.0.19"
   },
   "engines": {
