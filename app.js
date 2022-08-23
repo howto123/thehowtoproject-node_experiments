@@ -41,5 +41,4 @@ app.get('createtable', () => {
     let sql = '';
 })
 
-let $PORT;
-app.listen($PORT || 3001, ()=>console.log("server started this is new text"));
+app.listen($PORT, ()=>console.log("server started this is new text"));
