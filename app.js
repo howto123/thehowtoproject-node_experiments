@@ -102,30 +102,32 @@ app.listen(parseInt(process.env.PORT), ()=>{
 // ------------main---------------//
 function afterStartUp(){
 
+	/*
     // check the time
     client.query('SELECT NOW()', (err, res) => {
-        if (err) console.log("error while querying: ", err);
-        console.log(res.rows[0]);
-      });
+		if (err) console.log("error while querying: ", err);
+		console.log(res.rows[0]);
+	});
 
-      // create a table
-      console.log("create table");
-      client.query('CREATE TEMP TABLE people(id SERIAL PRIMARY KEY, name VARCHAR NOT NULL);', (err, res) => {
-        if (err) console.log("error while querying: ");
-        console.log(res.rows[0]);
-      });
+	// create a table
+	console.log("create table");
+	client.query('CREATE TEMP TABLE people(id SERIAL PRIMARY KEY, name VARCHAR NOT NULL);', (err, res) => {
+		if (err) console.log("error while querying: ");
+		console.log(res.rows[0]);
+	});
 
-      // insert
-      console.log("insert");
-      client.query("INSERT INTO people (name) VALUES ('somebody');", (err, res) => {
-        if (err) console.log("error while querying: ");
-        console.log(res.rows[0]);
-      });
+	// insert
+	console.log("insert");
+	client.query("INSERT INTO people (name) VALUES ('somebody');", (err, res) => {
+		if (err) console.log("error while querying: ");
+		console.log(res.rows[0]);
+	});
 
-      // select
-      console.log("select *");
-      client.query("SELECT * FROM people;", (err, res) => {
-        if (err) console.log("error while querying: ");
-        console.log(res.rows);
-      });
+	// select
+	console.log("select *");
+	client.query("SELECT * FROM people;", (err, res) => {
+		if (err) console.log("error while querying: ");
+		console.log(res.rows);
+	});
+	*/
 }
