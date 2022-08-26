@@ -102,7 +102,6 @@ app.listen(parseInt(process.env.PORT), ()=>{
 // ------------main---------------//
 function afterStartUp(){
 
-	/*
     // check the time
     client.query('SELECT NOW()', (err, res) => {
 		if (err) console.log("error while querying: ", err);
@@ -129,5 +128,5 @@ function afterStartUp(){
 		if (err) console.log("error while querying: ");
 		console.log(res.rows);
 	});
-	*/
+	
 }
