@@ -95,8 +95,8 @@ app.listen(parseInt(process.env.PORT), ()=>{
     client.connect((err)=>{
         if(err)console.log("connection to db failed", err.message);
         else console.log("connectoin to db was successful");
+		afterStartUp();
     });
-    afterStartUp();
 });
 
 // ------------main---------------//
